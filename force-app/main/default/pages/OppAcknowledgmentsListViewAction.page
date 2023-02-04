@@ -1,0 +1,6 @@
+<apex:page 
+    standardController="Opportunity" 
+    extensions="OppAcknowledgmentsListViewCtrl" 
+    recordSetVar="records" 
+    action="{!prepareBatchUrl}">
+</apex:page>
